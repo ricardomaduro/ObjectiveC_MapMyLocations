@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B484FE371C544822005436FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B484FE361C544822005436FB /* main.m */; };
+		B484FE3A1C544822005436FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B484FE391C544822005436FB /* AppDelegate.m */; };
+		B484FE3D1C544822005436FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B484FE3C1C544822005436FB /* ViewController.m */; };
+		B484FE401C544822005436FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B484FE3E1C544822005436FB /* Main.storyboard */; };
+		B484FE431C544822005436FB /* MapMyPoints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B484FE411C544822005436FB /* MapMyPoints.xcdatamodeld */; };
+		B484FE451C544822005436FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B484FE441C544822005436FB /* Assets.xcassets */; };
+		B484FE481C544822005436FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B484FE461C544822005436FB /* LaunchScreen.storyboard */; };
+		B484FE501C54483A005436FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B484FE4F1C54483A005436FB /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B484FE321C544822005436FB /* MapMyPoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMyPoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B484FE361C544822005436FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B484FE381C544822005436FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B484FE391C544822005436FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B484FE3B1C544822005436FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B484FE3C1C544822005436FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B484FE3F1C544822005436FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B484FE421C544822005436FB /* MapMyPoints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapMyPoints.xcdatamodel; sourceTree = "<group>"; };
+		B484FE441C544822005436FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B484FE471C544822005436FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B484FE491C544822005436FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B484FE4F1C54483A005436FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B484FE2F1C544822005436FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B484FE501C54483A005436FB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B484FE291C544822005436FB = {
+			isa = PBXGroup;
+			children = (
+				B484FE4F1C54483A005436FB /* MapKit.framework */,
+				B484FE341C544822005436FB /* MapMyPoints */,
+				B484FE331C544822005436FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B484FE331C544822005436FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B484FE321C544822005436FB /* MapMyPoints.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B484FE341C544822005436FB /* MapMyPoints */ = {
+			isa = PBXGroup;
+			children = (
+				B484FE381C544822005436FB /* AppDelegate.h */,
+				B484FE391C544822005436FB /* AppDelegate.m */,
+				B484FE3B1C544822005436FB /* ViewController.h */,
+				B484FE3C1C544822005436FB /* ViewController.m */,
+				B484FE3E1C544822005436FB /* Main.storyboard */,
+				B484FE441C544822005436FB /* Assets.xcassets */,
+				B484FE461C544822005436FB /* LaunchScreen.storyboard */,
+				B484FE491C544822005436FB /* Info.plist */,
+				B484FE411C544822005436FB /* MapMyPoints.xcdatamodeld */,
+				B484FE351C544822005436FB /* Supporting Files */,
+			);
+			path = MapMyPoints;
+			sourceTree = "<group>";
+		};
+		B484FE351C544822005436FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B484FE361C544822005436FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B484FE311C544822005436FB /* MapMyPoints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B484FE4C1C544822005436FB /* Build configuration list for PBXNativeTarget "MapMyPoints" */;
+			buildPhases = (
+				B484FE2E1C544822005436FB /* Sources */,
+				B484FE2F1C544822005436FB /* Frameworks */,
+				B484FE301C544822005436FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapMyPoints;
+			productName = MapMyPoints;
+			productReference = B484FE321C544822005436FB /* MapMyPoints.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B484FE2A1C544822005436FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ricardo Maduro";
+				TargetAttributes = {
+					B484FE311C544822005436FB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B484FE2D1C544822005436FB /* Build configuration list for PBXProject "MapMyPoints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B484FE291C544822005436FB;
+			productRefGroup = B484FE331C544822005436FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B484FE311C544822005436FB /* MapMyPoints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B484FE301C544822005436FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B484FE481C544822005436FB /* LaunchScreen.storyboard in Resources */,
+				B484FE451C544822005436FB /* Assets.xcassets in Resources */,
+				B484FE401C544822005436FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B484FE2E1C544822005436FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B484FE3D1C544822005436FB /* ViewController.m in Sources */,
+				B484FE431C544822005436FB /* MapMyPoints.xcdatamodeld in Sources */,
+				B484FE3A1C544822005436FB /* AppDelegate.m in Sources */,
+				B484FE371C544822005436FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B484FE3E1C544822005436FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B484FE3F1C544822005436FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B484FE461C544822005436FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B484FE471C544822005436FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B484FE4A1C544822005436FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B484FE4B1C544822005436FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B484FE4D1C544822005436FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapMyPoints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-41075-rm-core-data-app.MapMyPoints";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B484FE4E1C544822005436FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapMyPoints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-41075-rm-core-data-app.MapMyPoints";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B484FE2D1C544822005436FB /* Build configuration list for PBXProject "MapMyPoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B484FE4A1C544822005436FB /* Debug */,
+				B484FE4B1C544822005436FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B484FE4C1C544822005436FB /* Build configuration list for PBXNativeTarget "MapMyPoints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B484FE4D1C544822005436FB /* Debug */,
+				B484FE4E1C544822005436FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B484FE411C544822005436FB /* MapMyPoints.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B484FE421C544822005436FB /* MapMyPoints.xcdatamodel */,
+			);
+			currentVersion = B484FE421C544822005436FB /* MapMyPoints.xcdatamodel */;
+			path = MapMyPoints.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B484FE2A1C544822005436FB /* Project object */;
+}
